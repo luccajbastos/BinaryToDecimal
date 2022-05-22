@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+}
+main {
+    background-color: #12212A;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.title {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: -160px;
+    font-weight: 600;
+    text-shadow: 1px 2px 5px gray;
+}
+
+.painel { 
+    background-color: #142E41;
+    border-color: #142E41;
+    width: auto;
+    margin:auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.error {
+    display: flex;
+    justify-content: space-between;
+    width: 62%;
+}
+.painel #error{
+    margin-top: 15px;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    text-shadow: 3px 3px 3px black;
+}
+.painel .painel--input #entrada, #saida {
+    text-align: center;
+    margin: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    width: 300px;
+}
+
+.painel #button {
+    margin: 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100px;
+}
+.painel #button:hover{
+    color: white;
+    background-color: #12212A;
+    border-color: #12212A;
+    transition: 200ms;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #142E41;
+    color: white;
+    text-align: center;
+}
+footer .conteudo {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
