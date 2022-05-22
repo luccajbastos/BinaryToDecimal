@@ -1,3 +1,5 @@
 # Conversor de binário para decimal
 
-### Feito em html, css e javascript.
+### Feito com as tecnologias:
+##### HTML e CSS
+##### JAVASCRIPT
